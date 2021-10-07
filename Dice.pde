@@ -4,7 +4,7 @@ void setup()
 {
   size(592, 700);
   textSize(25);
-  color(255);
+  textColor(255);
   textAlign(CENTER, CENTER);
   noLoop();
 }
