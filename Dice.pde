@@ -4,6 +4,7 @@ void setup()
 {
   size(592, 700);
   textSize(25);
+  color(255);
   textAlign(CENTER, CENTER);
   noLoop();
 }
@@ -11,7 +12,7 @@ void setup()
 void draw()
 {
   //your code here
-  background(255);
+  background(0);
   int total = 0;
   for(int row = 0; row < 10; row++)
   {
