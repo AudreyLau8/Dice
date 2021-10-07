@@ -96,8 +96,8 @@ class Die //models one single dice cube
    
   void show()
   {
-    fill((int)(Math.random()*79)+176, (int)(Math.random()*79)+176, (int)(Math.random()*79)+176);
-    rect(myX, myY, 50, 50, 7);
+    fill((int)(Math.random()*50)+150, (int)(Math.random()*90)+165, (int)(Math.random()*80)+160);
+    rect(myX, myY, 50, 50);
     fill(0);
     if (one == true) 
     {
